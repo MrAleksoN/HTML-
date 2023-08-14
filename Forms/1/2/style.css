@@ -1,0 +1,23 @@
+.c1 {
+    display: flex;
+    justify-content: center;
+    flex: auto;
+    margin-top: 50px;
+    border: 2px solid rgba(128, 128, 128, 0.829);
+    width: 600px;
+    margin-left: 100px;
+    margin-right: auto;
+    background-color: rgb(196, 202, 255);
+}
+.c2 {
+    height: 20px;
+    width: 200px;
+    background-color:rgb(240, 255, 242);
+    border: 2px solid grey;
+}
+.c3 {
+    font-size: large;
+}
+.c4 {
+    margin-bottom: 30px;
+}
