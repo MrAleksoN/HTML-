@@ -1,0 +1,28 @@
+        .subscription-plans {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .subscription-plan {
+            width: 200px;
+            height: 200px;
+            background-color: #f0f0f0;
+            margin: 20px;
+            cursor: pointer;
+            transition: transform 1s;
+        }
+        
+        .subscription-plan:hover {
+            transform: scale(1.1);
+            background-color: #ffcccc;
+        }
+        
+        .subscription-plan:nth-child(2) {
+            background-color: #e6faff;
+        }
+        
+        .subscription-plan:nth-child(3) {
+            background-color: #e6ccff;
+        }
